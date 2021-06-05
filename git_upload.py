@@ -24,7 +24,7 @@ def upload():
     os.system("git add .")
     os.system("git commit -m \"ui\"")
     # os.system("git commit")  
-    os.system("git push -u origin main")
+    os.system("git push -u origin master")
 
    
  
