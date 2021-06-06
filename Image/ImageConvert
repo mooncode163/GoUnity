@@ -24,7 +24,7 @@ cd $filepath
 #go mod init example.com/m
 #go get github.com/nfnt/resize
 # go build ImageConvert.go 
-go run ImageConvert.go 
+go run ImageConvert.go "1.jpg" "dst.jpg" "256" "256"
  
 
 
